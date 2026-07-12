@@ -195,6 +195,25 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, summary:focus-visible
 .hero-card ul{ margin:0; padding-left: 1.1em; }
 .hero-card li{ margin-bottom: .55em; color: var(--ink-soft); }
 
+/* Framed illustration images */
+.media-frame{
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 22px;
+  background: var(--paper-2);
+}
+.media-frame img{
+  display:block; width:100%; height:auto;
+  filter: saturate(.96);
+}
+.media-frame.banner img{ aspect-ratio: 16/9; object-fit: cover; }
+.media-caption{
+  font-family: var(--font-mono); font-size: .7rem; letter-spacing:.03em;
+  color: var(--ink-soft); padding: 8px 12px; border-top: 1px solid var(--line);
+  background: rgba(255,255,255,.4);
+}
+
 /* =====================================================
    BUTTONS
    ===================================================== */

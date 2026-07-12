@@ -32,7 +32,11 @@ permalink: /
       </div>
     </div>
 
-    <div class="hero-card">
+    <div>
+      <div class="media-frame banner">
+        <img src="{{ '/assets/images/home-hero-banner.jpg' | relative_url }}" alt="Frascos de glóbulos homeopáticos e florais de Bach ao lado de flores silvestres, sobre uma mesa clara">
+      </div>
+      <div class="hero-card">
       <h3>Em poucas palavras</h3>
       <ul>
         <li><strong>O que faço:</strong> avaliação individualizada e acompanhamento em homeopatia e florais de Bach.</li>
@@ -40,6 +44,7 @@ permalink: /
         <li><strong>Onde:</strong> qualquer lugar do Brasil, por videochamada.</li>
         <li><strong>Como começar:</strong> uma mensagem no WhatsApp já dá início ao agendamento.</li>
       </ul>
+      </div>
     </div>
   </div>
 </section>

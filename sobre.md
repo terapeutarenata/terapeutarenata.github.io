@@ -14,6 +14,9 @@ permalink: /sobre/
       Antes de qualquer diploma, houve uma pergunta simples que não me saía da cabeça: por que tantas
       pessoas seguem de consultório em consultório, tomando cada vez mais remédios, e continuam se sentindo mal?
     </p>
+    <div class="media-frame" style="max-width:420px; margin-top:24px;">
+      <img src="{{ '/assets/images/sobre-mim.jpg' | relative_url }}" alt="Caderno de anotações e xícara de chá com flores, sobre um tecido claro">
+    </div>
   </div>
 </section>
 
@@ -75,10 +78,11 @@ permalink: /sobre/
     <h2>Formação</h2>
     <ul>
       <li>Formação em Homeopatia (linha hahnemanniana clássica).</li>
-      <li>Atualização contínua através de estudos de caso, pesquisa e desenvolvimentos de materiais educacionais.</li>
+      <li>Formação em Terapia Floral — Sistema Floral de Bach.</li>
+      <li>Atualização contínua através de estudos de caso, supervisão clínica e cursos complementares.</li>
     </ul>
     <p class="small-print">
-      
+      Substitua este bloco pelos nomes reais das instituições, cargas horárias e ano de conclusão de cada curso.
     </p>
 
     <div class="cta-band" style="margin-top:40px;">

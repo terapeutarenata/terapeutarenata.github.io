@@ -14,6 +14,9 @@ permalink: /homeopatia/
       Um guia direto sobre os fundamentos da homeopatia hahnemanniana: de onde ela veio, como um
       medicamento é escolhido e o que esperar de um acompanhamento.
     </p>
+    <div class="media-frame" style="max-width:420px; margin-top:24px;">
+      <img src="{{ '/assets/images/homeopatia-hero.jpg' | relative_url }}" alt="Almofariz de porcelana e frasco de glóbulos homeopáticos entre ramos de flores">
+    </div>
   </div>
 </section>
 

@@ -45,7 +45,7 @@ permalink: /valores/
     {% include sprig.html %}
 
     <h2>Formas de pagamento</h2>
-    <p>Pagamento por Pix. O pagamento é confirmado antes da realização da consulta.</p>
+    <p>Pix e cartão. O pagamento é confirmado antes da realização da consulta.</p>
 
     <h2>Como solicitar um orçamento</h2>
     <p>
