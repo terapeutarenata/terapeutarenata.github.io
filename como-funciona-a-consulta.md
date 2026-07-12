@@ -13,8 +13,8 @@ permalink: /como-funciona-a-consulta/
     <p class="lede">
       Um processo pensado para ser claro desde o início — você sabe exatamente o que esperar em cada etapa.
     </p>
-    <div class="media-frame" style="max-width:420px; margin-top:24px;">
-      <img src="{{ '/assets/images/como-funciona.jpg' | relative_url }}" alt="Ilustração de acolhimento e cuidado integral, com flor e folhagem">
+    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+      <img src="{{ '/assets/images/como-funciona.jpg' | relative_url }}" alt="Ilustração 'Cuidado Integral': figura em meditação com uma flor, representando o acolhimento individualizado ao longo da consulta">
     </div>
   </div>
 </section>

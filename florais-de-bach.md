@@ -14,8 +14,8 @@ permalink: /florais-de-bach/
       Trinta e oito essências florais criadas para apoiar estados emocionais — sempre escolhidas a
       partir de uma escuta individual, e não de fórmulas padronizadas para cada sintoma.
     </p>
-    <div class="media-frame" style="max-width:420px; margin-top:24px;">
-      <img src="{{ '/assets/images/terapia-floral.jpg' | relative_url }}" alt="Ilustração em aquarela de flores silvestres usadas nos florais de Bach">
+    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+      <img src="{{ '/assets/images/terapia-floral.jpg' | relative_url }}" alt="Ilustração 'Terapia Floral': aquarela de flores silvestres, representando as essências que apoiam o equilíbrio emocional">
     </div>
   </div>
 </section>

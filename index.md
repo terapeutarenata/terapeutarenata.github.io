@@ -33,8 +33,8 @@ permalink: /
     </div>
 
     <div>
-      <div class="media-frame banner">
-        <img src="{{ '/assets/images/home-hero-banner.jpg' | relative_url }}" alt="Frascos de glóbulos homeopáticos e florais de Bach ao lado de flores silvestres, sobre uma mesa clara">
+      <div class="media-frame">
+        <img src="{{ '/assets/images/home-hero-banner.jpg' | relative_url }}" alt="Banner ilustrativo: Equilíbrio que floresce de dentro — terapias naturais para corpo, mente e emoções, com frascos de glóbulos homeopáticos, floral e flores silvestres">
       </div>
       <div class="hero-card">
       <h3>Em poucas palavras</h3>

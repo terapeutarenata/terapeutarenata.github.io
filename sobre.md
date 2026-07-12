@@ -14,8 +14,8 @@ permalink: /sobre/
       Antes de qualquer diploma, houve uma pergunta simples que não me saía da cabeça: por que tantas
       pessoas seguem de consultório em consultório, tomando cada vez mais remédios, e continuam se sentindo mal?
     </p>
-    <div class="media-frame" style="max-width:420px; margin-top:24px;">
-      <img src="{{ '/assets/images/sobre-mim.jpg' | relative_url }}" alt="Caderno de anotações e xícara de chá com flores, sobre um tecido claro">
+    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+      <img src="{{ '/assets/images/sobre-mim.jpg' | relative_url }}" alt="Ilustração 'Sobre Mim': caderno de anotações e xícara de chá com flores, convidando a conhecer minha história e abordagem terapêutica">
     </div>
   </div>
 </section>

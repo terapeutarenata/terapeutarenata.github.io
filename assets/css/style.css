@@ -8,8 +8,8 @@
   --ink-soft: #3E4E45;
   --sage: #5C7A63;
   --sage-deep: #3F5B48;
-  --plum: #7C5468;
-  --plum-deep: #5E3E4E;
+  --plum: #5B3876;
+  --plum-deep: #432A5A;
   --gold: #B4914F;
   --line: #D8D2C0;
   --paper-rgb: 241,238,227;
@@ -195,23 +195,21 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, summary:focus-visible
 .hero-card ul{ margin:0; padding-left: 1.1em; }
 .hero-card li{ margin-bottom: .55em; color: var(--ink-soft); }
 
-/* Framed illustration images */
+/* Illustration images (used as-is, they already have their own card framing) */
 .media-frame{
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  overflow: hidden;
   margin-bottom: 22px;
-  background: var(--paper-2);
+  filter: drop-shadow(0 10px 24px rgba(33,51,43,.12));
 }
 .media-frame img{
-  display:block; width:100%; height:auto;
-  filter: saturate(.96);
+  display:block; width:100%; height:auto; border-radius: 10px;
 }
-.media-frame.banner img{ aspect-ratio: 16/9; object-fit: cover; }
+.media-frame.banner{
+  filter: drop-shadow(0 12px 28px rgba(33,51,43,.14));
+}
+.media-frame.banner img{ border-radius: 14px; }
 .media-caption{
   font-family: var(--font-mono); font-size: .7rem; letter-spacing:.03em;
-  color: var(--ink-soft); padding: 8px 12px; border-top: 1px solid var(--line);
-  background: rgba(255,255,255,.4);
+  color: var(--ink-soft); padding: 8px 2px 0;
 }
 
 /* =====================================================
