@@ -1,0 +1,37 @@
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span>
+        {{ site.therapist_name }}
+        <small>Homeopatia &amp; Florais de Bach</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="{{ '/sobre/' | relative_url }}" {% if page.url == '/sobre/' %}class="active"{% endif %}>Sobre mim</a></li>
+      <li><a href="{{ '/homeopatia/' | relative_url }}" {% if page.url == '/homeopatia/' %}class="active"{% endif %}>Homeopatia</a></li>
+      <li><a href="{{ '/florais-de-bach/' | relative_url }}" {% if page.url == '/florais-de-bach/' %}class="active"{% endif %}>Florais de Bach</a></li>
+      <li><a href="{{ '/como-funciona-a-consulta/' | relative_url }}" {% if page.url == '/como-funciona-a-consulta/' %}class="active"{% endif %}>A consulta</a></li>
+      <li><a href="{{ '/atendimento-online/' | relative_url }}" {% if page.url == '/atendimento-online/' %}class="active"{% endif %}>Atendimento online</a></li>
+      <li><a href="{{ '/valores/' | relative_url }}" {% if page.url == '/valores/' %}class="active"{% endif %}>Valores</a></li>
+      <li><a href="{{ '/faq/' | relative_url }}" {% if page.url == '/faq/' %}class="active"{% endif %}>Perguntas frequentes</a></li>
+      <li><a href="{{ '/contato/' | relative_url }}" class="nav-cta">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  (function(){
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    if(!toggle || !links) return;
+    toggle.addEventListener('click', function(){
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>

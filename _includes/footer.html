@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>{{ site.therapist_name }}</h4>
+        <p class="small-print">{{ site.credentials }}. {{ site.city_state }}.</p>
+        <p class="small-print">Homeopatia hahnemanniana clássica e terapia floral de Bach, por videochamada.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="{{ '/sobre/' | relative_url }}">Sobre mim</a></li>
+          <li><a href="{{ '/homeopatia/' | relative_url }}">Homeopatia</a></li>
+          <li><a href="{{ '/florais-de-bach/' | relative_url }}">Florais de Bach</a></li>
+          <li><a href="{{ '/como-funciona-a-consulta/' | relative_url }}">Como funciona a consulta</a></li>
+          <li><a href="{{ '/quem-pode-se-beneficiar/' | relative_url }}">Quem pode se beneficiar</a></li>
+          <li><a href="{{ '/atendimento-online/' | relative_url }}">Atendimento online</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/{{ site.whatsapp_number }}?text={{ site.whatsapp_message | url_encode }}" target="_blank" rel="noopener">WhatsApp: {{ site.whatsapp_display }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{{ site.office_hours }}</li>
+          <li><a href="{{ '/valores/' | relative_url }}">Valores e orçamento</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">Perguntas frequentes</a></li>
+          <li><a href="{{ '/termos-de-uso/' | relative_url }}">Termos de uso</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="disclaimer">
+      As informações deste site têm caráter educativo e não substituem diagnóstico, acompanhamento ou tratamento
+      médico. A homeopatia e os florais de Bach são abordagens terapêuticas complementares; não interrompa
+      tratamentos médicos em curso sem orientação do profissional responsável. Resultados variam de pessoa para
+      pessoa, pois cada caso é avaliado individualmente.
+    </p>
+
+    <div class="footer-legal">
+      <span>&copy; {{ 'now' | date: "%Y" }} {{ site.therapist_name }}. Todos os direitos reservados.</span>
+      <span><a href="{{ '/termos-de-uso/' | relative_url }}">Termos de uso</a></span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,53 @@
+# =====================================================
+# CONFIGURAÇÃO DO SITE — edite os campos abaixo
+# =====================================================
+
+title: "Nome Sobrenome — Homeopatia e Florais de Bach"
+tagline: "Atendimento online de homeopatia clássica e florais de Bach"
+description: >-
+  Consultas online de homeopatia hahnemanniana e florais de Bach.
+  Atendimento individualizado, por videochamada, para todo o Brasil.
+url: "https://SEU-USUARIO.github.io"     # troque pelo seu domínio/usuário do GitHub Pages
+baseurl: ""                               # troque para "/NOME-DO-REPOSITORIO" se não for um site de usuário (usuario.github.io)
+lang: "pt-BR"
+
+# ---- Dados do(a) terapeuta / contato ----
+therapist_name: "Nome Sobrenome"
+credentials: "Terapeuta em Homeopatia e Florais de Bach"
+whatsapp_number: "5511999999999"          # apenas dígitos, com DDI 55 + DDD + número
+whatsapp_display: "(11) 99999-9999"
+whatsapp_message: "Olá! Gostaria de agendar uma consulta."
+email: "contato@seudominio.com.br"
+instagram: "https://instagram.com/seuusuario"
+office_hours: "Segunda a sexta, das 9h às 18h"
+city_state: "Atendimento 100% online — todo o Brasil"
+
+# ---- SEO padrão ----
+twitter:
+  card: summary
+social:
+  name: "Nome Sobrenome"
+  links:
+    - "https://instagram.com/seuusuario"
+
+# ---- Build ----
+markdown: kramdown
+permalink: /:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
