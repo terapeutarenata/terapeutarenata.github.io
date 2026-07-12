@@ -111,11 +111,16 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, summary:focus-visible
   gap: 20px;
 }
 .brand{
-  display:flex; align-items:center; gap:.6em;
+  display:flex; align-items:center; gap:.7em;
   font-family: var(--font-display);
   font-size: 1.15rem;
   color: var(--ink);
   text-decoration:none;
+}
+.brand-mark{
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(33,51,43,.25);
 }
 .brand:hover{ color: var(--ink); }
 .brand small{
