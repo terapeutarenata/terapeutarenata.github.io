@@ -33,7 +33,7 @@ twitter:
 social:
   name: "Nome Sobrenome"
   links:
-    - "https://instagram.com/seuusuario"
+    - ""
 
 # ---- Build ----
 markdown: kramdown
