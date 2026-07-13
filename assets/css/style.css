@@ -443,8 +443,8 @@ section{ padding: 64px 0; }
     pointer-events: none;
     opacity: .92;
   }
-  .frame-tl{ top: 8px; left: 8px; }
-  .frame-tr{ top: 8px; right: 8px; }
+  .frame-tl{ top: 92px; left: 8px; }
+  .frame-tr{ top: 92px; right: 8px; }
   .frame-bl{ bottom: 8px; left: 8px; }
   .frame-br{ bottom: 8px; right: 8px; }
 }

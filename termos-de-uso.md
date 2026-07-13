@@ -58,6 +58,13 @@ permalink: /termos-de-uso/
       exclusivamente para fins de agendamento, atendimento e acompanhamento clínico, e são tratados com
       sigilo profissional. Não compartilhamos seus dados com terceiros para fins comerciais.
     </p>
+    <p>
+      Este site utiliza o Google Analytics para entender, de forma agregada e anônima, como as páginas
+      são visitadas (por exemplo, quais páginas são mais acessadas). Essa ferramenta pode usar cookies e
+      coletar dados básicos de navegação, como tipo de dispositivo e localização aproximada. Essas
+      informações não são usadas para identificar você pessoalmente. Você pode desativar cookies nas
+      configurações do seu navegador a qualquer momento.
+    </p>
 
     <h2>7. Consultas online</h2>
     <p>
