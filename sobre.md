@@ -80,7 +80,7 @@ permalink: /sobre/
     <h2>Formação</h2>
     <ul>
       <li>Formação em Homeopatia (linha hahnemanniana clássica).</li>
-      <li>Atualização contínua através de estudos de caso, pesquisas e produção de conteúdos educacionais.</li>
+      <li>Estudos contínuos e aprofundamento nas bases da homeopatia, florais de Bach e terapias complementares.</li>
     </ul>
     <p class="small-print">
       Continuo meu caminho em constantes atualizações sobre meus conhecimentos.
