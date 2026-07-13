@@ -12,7 +12,7 @@ permalink: /sobre/
       <span class="eyebrow">Sobre mim</span>
       <h1>A pergunta que mudou minha forma de olhar para a saúde</h1>
       <p class="lede">
-        Antes de qualquer diploma, houve uma pergunta simples que não me saía da cabeça: por que tantas
+        Antes de me tornar terapeuta, houve uma pergunta simples que não me saía da cabeça: por que tantas
         pessoas seguem de consultório em consultório, tomando cada vez mais remédios, e continuam se sentindo mal?
       </p>
     </div>
