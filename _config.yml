@@ -2,33 +2,31 @@
 # CONFIGURAÇÃO DO SITE — edite os campos abaixo
 # =====================================================
 
-title: "Nome Sobrenome — Homeopatia e Florais de Bach"
+title: "Renata Camargo — Homeopatia e Florais de Bach"
 tagline: "Atendimento online de homeopatia clássica e florais de Bach"
 description: >-
   Consultas online de homeopatia hahnemanniana e florais de Bach.
-  Atendimento individualizado, por videochamada, para todo o Brasil.
-url: "https://SEU-USUARIO.github.io"     # troque pelo seu domínio/usuário do GitHub Pages
+  Atendimento individualizado, por videochamada, para todos.
+url: "https://terapeutarenata.github.io/"     # troque pelo seu domínio/usuário do GitHub Pages
 baseurl: ""                               # troque para "/NOME-DO-REPOSITORIO" se não for um site de usuário (usuario.github.io)
 lang: "pt-BR"
 
 # ---- Dados do(a) terapeuta / contato ----
-therapist_name: "Nome Sobrenome"
+therapist_name: "Renata Camargo"
 credentials: "Terapeuta em Homeopatia e Florais de Bach"
-whatsapp_number: "5511999999999"          # apenas dígitos, com DDI 55 + DDD + número
-whatsapp_display: "(11) 99999-9999"
+whatsapp_number: "5521972734029"          # apenas dígitos, com DDI 55 + DDD + número
+whatsapp_display: "(21) 97273-4029"
 whatsapp_message: "Olá! Gostaria de agendar uma consulta."
-email: "contato@seudominio.com.br"
-instagram: "https://instagram.com/seuusuario"
-office_hours: "Segunda a sexta, das 9h às 18h"
+office_hours: "Segunda a sexta, das 9h às 19h"
 city_state: "Atendimento 100% online — todo o Brasil"
 
 # ---- SEO padrão ----
 twitter:
   card: summary
 social:
-  name: "Nome Sobrenome"
+  name: "Renata Camargo"
   links:
-    - "https://instagram.com/seuusuario"
+    - "https://"
 
 # ---- Build ----
 markdown: kramdown
