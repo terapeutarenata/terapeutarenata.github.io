@@ -30,11 +30,13 @@ permalink: /contato/
         <p>{{ site.whatsapp_display }}</p>
         <p><a class="btn btn-whatsapp" style="margin-top:8px;" href="https://wa.me/{{ site.whatsapp_number }}?text={{ site.whatsapp_message | url_encode }}" target="_blank" rel="noopener">Chamar agora</a></p>
       </div>
+      <div class="container">
+    <div class="grid-3">
+      <div class="card">
         <h3>Horário de atendimento</h3>
         <p>{{ site.office_hours }}</p>
         <p>{{ site.city_state }}</p>
-      </div>
-      </div>
+       </div>
 
     {% include sprig.html %}
 
