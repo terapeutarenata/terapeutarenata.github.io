@@ -15,10 +15,10 @@ lang: "pt-BR"
 therapist_name: "Renata Camargo"
 credentials: "Terapeuta em Homeopatia e Florais de Bach"
 whatsapp_number: "5521972734029"          # apenas dígitos, com DDI 55 + DDD + número
-whatsapp_display: "(21) 97273-4029"
+whatsapp_display: ""
 whatsapp_message: "Olá! Gostaria de agendar uma consulta."
-email: "contato@seudominio.com.br"
-instagram: "https://instagram.com/seuusuario"
+email: ""
+instagram: ""
 office_hours: "Segunda a sexta, das 9h às 18h"
 city_state: "Atendimento 100% online — todo o Brasil"
 
