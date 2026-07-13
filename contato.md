@@ -31,7 +31,7 @@ permalink: /contato/
         <p><a class="btn btn-whatsapp" style="margin-top:8px;" href="https://wa.me/{{ site.whatsapp_number }}?text={{ site.whatsapp_message | url_encode }}" target="_blank" rel="noopener">Chamar agora</a></p>
       </div>
       <div class="card">
-        <h3>E-mail</h3>
+        <h3></h3>
         <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
       <div class="card">
@@ -40,8 +40,8 @@ permalink: /contato/
         <p>{{ site.city_state }}</p>
       </div>
       <div class="card">
-        <h3>Instagram</h3>
-        <p><a href="{{ site.instagram }}" target="_blank" rel="noopener">Acompanhe o dia a dia do consultório</a></p>
+        <h3></h3>
+        <p><a href="{{ site.instagram }}" target="_blank" rel="noopener"></a></p>
       </div>
     </div>
 
